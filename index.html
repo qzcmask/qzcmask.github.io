@@ -22,7 +22,57 @@
     <div id="page" class="site">
       <!-- .site-header -->
       <div id="content" class="site-content">
-        <header class="page-header">
+         <!-- 轮播（Carousel）项目 -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <!--
+                应该切割的图片：
+                480 * 250
+                800 * 300
+                1600 * 450
+              -->
+
+              <picture>
+                <!-- 800px -->
+                <source
+                  srcset="./img/bg-1600x400.jpg"
+                  media="(min-width: 800px)"
+                />
+                <!-- 480px -->
+                <source
+                  srcset="./img/bg-800x300.jpg"
+                  media="(min-width: 481px)"
+                />
+                <!-- 480px以下的 -->
+                <img
+                  src="./img/bg-480x500.jpg"
+                  alt="banner picture"
+                  draggable="false"
+                />
+              </picture>
+              <!-- <img src="../static/images/banner_bg.png"> -->
+
+              <div class="mask"></div> 
+              <div class="text-container">
+                <div class="container">
+                <h1 class="page-title">
+              Fast Neural Perception and Learning for Intelligent Vehicles and
+              Robotics
+            </h1>
+            <div class="breadcrumb">
+              <span>
+                A Full-day Workshop @ IROS 2019</span
+              >
+              <span style="display: block;">November 4, 2019, Macau,
+                China</span>
+            </div>
+              </div>
+              <!-- <div class="carousel-caption">第三方平台开发接入</div> -->
+            </div>
+            </div>
+          </div>
+
+        <!-- <header class="page-header">
           <div class="container">
             <h1 class="page-title">
               Fast Neural Perception and Learning for Intelligent Vehicles and
@@ -35,9 +85,8 @@
               <span style="display: block;">November 4, 2019, Macau,
                 China</span>
             </div>
-            <!-- .breadcrumb -->
-          </div>
-        </header>
+          </div>-->
+        </header> 
         <div class="container">
           <div id="primary" class="content-area">
             <main id="main" class="site-main">
