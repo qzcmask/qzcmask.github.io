@@ -1079,7 +1079,7 @@ iframe {
 		left: 0;
 		z-index: -1;
 	}
-	header.page-header:after {
+	/* header.page-header:after {
 		content: "";
 		background: -webkit-linear-gradient(rgba(87,185,168,0.8), rgba(13,45,98,0.8));
 		background: -moz-linear-gradient(rgba(87,185,168,0.8), rgba(13,45,98,0.8));
@@ -1092,7 +1092,7 @@ iframe {
 		top: 0;
 		left: 0;
 		z-index: -1;
-	} 
+	}  */
 	.page-header .container {
 		margin-top: 80px;
 	}

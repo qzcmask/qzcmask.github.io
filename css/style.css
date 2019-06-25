@@ -1,5 +1,5 @@
 header.page-header {
-  background: url('../img/bg-1.png') no-repeat center;
+  background: url('../img/bg-macau.png') no-repeat center;
   /* background-attachment: fixed!important; */
   background-size: cover!important;
   padding: 120px 0;
@@ -73,4 +73,8 @@ header.page-header .container {
 .topic-list {
   list-style-type: disc;
   padding-left: 20px;
+}
+
+a.underlined {
+  text-decoration: underline;
 }
