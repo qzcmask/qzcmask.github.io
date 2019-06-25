@@ -9,6 +9,10 @@ header.page-header {
   /* height: 100vh; */
 }
 
+.breadcrumb {
+  font-size: 18px;
+}
+
 header.page-header .container {
   margin-top: 0px;
 }
