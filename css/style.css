@@ -1,5 +1,8 @@
 header.page-header {
-  background: url('../img/bg-macau.png') no-repeat center;
+  background-image: url('../img/bg-macau.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   /* background-attachment: fixed!important; */
   background-size: cover!important;
   padding: 120px 0;
@@ -78,3 +81,63 @@ header.page-header .container {
 a.underlined {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .page-header .page-title {
+      font-size: 20px;
+  }
+
+  .page-header .breadcrumb {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .orga-item {
+    width: 100%;
+  }
+
+  .orga-item > img {
+   width: 100px;
+   margin-right: 5px;
+  }
+
+  .orga-item > div {
+    max-width: 164px;
+  }
+}
+
+
+/* 图片响应式 */
+/* @media screen and (min-width: 800px) {
+  header.page-header {
+  background-image: url('../img/bg-1600x400.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover!important;
+  padding: 120px 0;
+}
+}
+
+@media screen and (min-width: 481px) {
+  header.page-header {
+  background-image: url('../img/bg-800x300.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover!important;
+  padding: 120px 0;
+}
+}
+
+@media screen and (max-width: 480px) {
+  header.page-header {
+  background-image: url('../img/bg-480x250.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover!important;
+  padding: 120px 0;
+}
+} */
