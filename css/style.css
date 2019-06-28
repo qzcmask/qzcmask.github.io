@@ -58,6 +58,15 @@ header.page-header .container {
   margin-bottom: 10px;
 }
 
+.item-homepage {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.item-homepage a {
+  text-decoration: underline;
+}
+
 .item-college {
   font-size: 14px;
   margin-bottom: 15px;
