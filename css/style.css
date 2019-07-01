@@ -224,3 +224,8 @@ img {
   font-weight: 700;
   color: #fff;
 }
+
+.link-strong {
+  font-weight: 700;
+  color: red;
+}
