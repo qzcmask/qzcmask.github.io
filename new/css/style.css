@@ -1,0 +1,266 @@
+header.page-header {
+  background-image: url('../img/bg-macau.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  /* background-attachment: fixed!important; */
+  background-size: cover!important;
+  padding: 120px 0;
+  /* height: 100vh; */
+}
+
+.breadcrumb {
+  font-size: 18px;
+}
+
+header.page-header .container {
+  margin-top: 0px;
+}
+
+.breadcrumb span {
+  color: #57b9a8;
+}
+
+.orga-container {
+  /* border: 1px solid red; */
+}
+
+.orga-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orga-item {
+  vertical-align: middle;
+  width: 375px;
+  /* border: 1px solid blue; */
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.orga-item > img {
+  margin-right: 20px;
+  width: 130px;
+}
+
+.orga-item > div {
+  display: inline-block;
+  max-width: 210px;
+}
+
+.orga-item > div > span {
+  display: block;
+}
+
+.item-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.item-college {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.item-email {
+  font-size: 14px;
+}
+
+.item-email a {
+  text-decoration: underline;
+}
+
+.item-email img {
+  width: 20px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.item-homepage {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.item-homepage a {
+  text-decoration: underline;
+}
+
+.topic-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+a.underlined {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .page-header .page-title {
+      font-size: 20px;
+  }
+
+  .page-header .breadcrumb {
+    font-size: 16px;
+  }
+
+  .text-container .page-title {
+    font-size: 20px;
+  }
+
+  .text-container .breadcrumb {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .orga-item {
+    width: 100%;
+  }
+
+  .orga-item > img {
+   width: 100px;
+   margin-right: 5px;
+  }
+
+  .orga-item > div {
+    max-width: 164px;
+  }
+}
+
+
+/* 图片响应式 */
+  /* @media screen and (min-width: 800px) {
+  header.page-header {
+  background-image: url('../img/bg-1600x400.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover!important;
+  padding: 120px 0;
+}
+}
+
+@media screen and (min-width: 481px) {
+  header.page-header {
+  background-image: url('../img/bg-800x300.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover!important;
+  padding: 120px 0;
+  height: 300px!important;
+}
+} */
+
+/* @media screen and (max-width: 480px) {
+  header.page-header {
+  background-size: contain!important;
+  height: 100vh;
+}
+}   */
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left;
+}
+
+.mask {
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+  }
+  
+.page-cursor {
+    position: absolute;
+		/* background: red; */
+		width: 30px;
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    bottom: 25px;
+    left: calc(50% - 15px);
+    z-index: 99;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 30px;
+    opacity: .5;
+    animation: shrink 5s infinite;
+  }
+
+  @keyframes shrink {
+    0% {
+      opacity: .5;
+    }
+
+    50% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: .5;
+    }
+  }
+
+  .page-cursor:hover {
+   opacity: .8;
+
+  }
+@media screen and (max-width: 800px) {
+  /* .carousel-inner {
+    height: 100vh;
+  } */
+  .text-container {
+      /* width: 100%;
+      padding-bottom: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+  }
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container .container {
+  max-width: 768px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 36px;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.link-strong {
+  font-weight: 700;
+  color: red;
+}
