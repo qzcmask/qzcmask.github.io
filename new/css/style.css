@@ -32,7 +32,8 @@ header.page-header .container {
 
 .orga-item {
   vertical-align: middle;
-  width: 375px;
+  /* width: 375px; */
+  width: 366px;
   /* border: 1px solid blue; */
   margin-right: 10px;
   margin-bottom: 20px;
